@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 15px 20px;
+    background-color: #ff3f6c;
+    color: #fff;
+}
+.logo{
+   height: 5px;
+   width: 5px;
+   
+    
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav ul li {
+    display: inline-block;
+    
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+   
+}
+.nav ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.search-bar input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.banner {
+    background-image: url('https://images.unsplash.com/photo-1545535408-2b4d520cbd88?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YmFubmVyJTIwZm9yJTIwc2FsZSUyMGZvciUyMG15bnRyYXxlbnwwfHwwfHx8Mg%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    margin-top: 10px;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.banner-content h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.shop-now {
+    padding: 10px 20px;
+    background-color: #ff3f6c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.shop-now:hover{
+    background-color: aqua;
+    color: black;
+    
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    border: 8px solid #ff3f6c;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
